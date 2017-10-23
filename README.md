@@ -37,9 +37,52 @@ puts "My name is #$a" #Better
 ```
 
 ## Strings
+- String match
+```ruby
+a="Hello"
+if a.match /[a-zA-Z]/
+ puts "It's a match!"
+end
+
+a="Hello"
+if a=~/[a-zA-Z]/
+ puts "It's a match!"
+end
+```
+
+- String repetition
+```ruby
+6.times do
+ print "Hello"
+end
+
+print "Hello"*6 #Better
+```
 
 ## Arrays
+
+- Array assignement
+```ruby
+a=["Hello", "this", "is", "an", "array"]
+
+a=%w(Hello this is an array)
+```
 
 ## Integers
 
 ## Conditions
+
+```ruby
+a=true
+if a
+ puts "Yes it's true."
+end
+
+a=true
+puts "Yes it's true." if a #Better
+
+a=true
+a&&puts "Yes it's true." #The best
+```
+
+## Arrays
