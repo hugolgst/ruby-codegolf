@@ -6,7 +6,9 @@ Just browse categories and find the tricks you can do to reduce your code.
 * [Objects](#Objects)
   * [Variables](#Variables)
   * [Strings](#Strings)
-  * [Conditions](#Conditions)
+  * [Arrays](#Strings)
+  * [Integers](#Arrays)
+  * [Conditions](#Integers)
 
 ----------
 
@@ -84,5 +86,3 @@ puts "Yes it's true." if a #Better
 a=true
 a&&puts "Yes it's true." #The best
 ```
-
-## Arrays
