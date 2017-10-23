@@ -127,3 +127,12 @@ print "hello"
 
 $><<"hello" #Better
 ```
+
+- Think to remove `do end` block
+```ruby
+6.times do |i|
+ puts i
+end
+
+6.times{|i|puts i} #Better
+```
