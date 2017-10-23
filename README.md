@@ -88,8 +88,16 @@ puts a*?+ #Better
 
 ## Integers
 
+- Number shortcut
+```ruby
+a=10000
+
+a=1e4 #Better
+```
+
 ## Conditions
 
+- Condition shortcut
 ```ruby
 a=true
 if a
