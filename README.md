@@ -155,3 +155,10 @@ end
 
 6.times{|i|puts i} #Better
 ```
+
+- Item is member of a range
+```ruby
+(0..10).member?(3)
+
+(0..10)===3 #Better
+```
