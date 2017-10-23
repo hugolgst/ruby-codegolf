@@ -1,14 +1,15 @@
-# Ruby golfing tips and tricks 💡🌟
+# Introduction
 Some of the best golfing tips in Ruby.
 Just browse categories and find the tricks you can do to reduce your code.
 
 # Summary
-* Objects
+* [Objects](#Objects)
   * [Variables](#Variables)
   * [Strings](#Strings)
   * [Conditions](#Conditions)
 
-# Variables
+# Objects
+## Variables
 - Define variables with one letter
 ```ruby
 sentence="This is a good sentence."
@@ -24,10 +25,10 @@ c="Fish"
 a,b,c=2017,50,"Fish" #Better
 ```
 
-# Strings
+## Strings
 
-# Arrays
+## Arrays
 
-# Integers
+## Integers
 
-# Conditions
+## Conditions
