@@ -77,6 +77,15 @@ a=["Hello", "this", "is", "an", "array"]
 a=%w(Hello this is an array)
 ```
 
+- Array join
+```ruby
+a=[1, 2, 3]
+puts a.join("+")
+
+a=[1, 2, 3]
+puts a*?+ #Better
+```
+
 ## Integers
 
 ## Conditions
