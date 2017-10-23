@@ -3,12 +3,12 @@ Some of the best golfing tips in Ruby.
 Just browse categories and find the tricks you can do to reduce your code.
 
 # Summary
-* [Objects](#Objects)
-  * [Variables](#Variables)
-  * [Strings](#Strings)
-  * [Arrays](#Strings)
-  * [Integers](#Arrays)
-  * [Conditions](#Integers)
+* [Objects](#objects)
+  * [Variables](#variables)
+  * [Strings](#strings)
+  * [Arrays](#arrays)
+  * [Integers](#integers)
+  * [Conditions](#conditions)
 
 ----------
 
