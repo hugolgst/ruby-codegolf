@@ -7,6 +7,7 @@ Just browse categories and find the tricks you can do to reduce your code.
   * [Variables](#variables)
   * [Strings](#strings)
   * [Arrays](#arrays)
+  * [Ranges](#ranges)
   * [Integers](#integers)
   * [Conditions](#conditions)
   * [Others](#others)
@@ -106,6 +107,22 @@ end
 end
 ```
 
+## Ranges
+
+- Item is member of a range
+```ruby
+(0..10).member?(3)
+
+(0..10)===3 #Better
+```
+
+- Range to array
+```ruby
+("a".."z").to_a
+
+[*"a".."z"] #Better
+```
+
 ## Integers
 
 - Number shortcut
@@ -154,11 +171,4 @@ $><<"hello" #Better
 end
 
 6.times{|i|puts i} #Better
-```
-
-- Item is member of a range
-```ruby
-(0..10).member?(3)
-
-(0..10)===3 #Better
 ```
