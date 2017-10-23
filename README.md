@@ -87,6 +87,18 @@ a=[1, 2, 3]
 puts a*?+ #Better
 ```
 
+- Try to set your array as `$*`
+```ruby
+a=[]
+6.times do |i|
+ a << i
+end
+
+6.times do |i|
+ $* << i
+end
+```
+
 ## Integers
 
 - Number shortcut
