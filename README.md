@@ -48,7 +48,7 @@ end
 
 a="Hello"
 if a=~/[a-zA-Z]/
- puts "It's a match!"
+ puts "It's a match!"      #Better
 end
 ```
 
@@ -74,7 +74,7 @@ puts ?A #Better
 ```ruby
 a=["Hello", "this", "is", "an", "array"]
 
-a=%w(Hello this is an array)
+a=%w(Hello this is an array) #Better
 ```
 
 - Array join
@@ -93,6 +93,13 @@ puts a*?+ #Better
 a=10000
 
 a=1e4 #Better
+```
+
+- Print
+```ruby
+puts 547
+
+p 547 #Better
 ```
 
 ## Conditions
