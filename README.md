@@ -1,6 +1,12 @@
-# Ruby golfing tips and tricks
+# Ruby golfing tips and tricks 💡🌟
 Some of the best golfing tips in Ruby.
 Just browse categories and find the tricks you can do to reduce your code.
+
+# Summary
+* Objects
+  * [Variables](#Variables)
+  * [Strings](#Strings)
+  * [Conditions](#Conditions)
 
 # Variables
 - Define variables with one letter
@@ -17,3 +23,11 @@ c="Fish"
 
 a,b,c=2017,50,"Fish" #Better
 ```
+
+# Strings
+
+# Arrays
+
+# Integers
+
+# Conditions
