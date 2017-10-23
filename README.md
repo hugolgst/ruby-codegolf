@@ -8,6 +8,8 @@ Just browse categories and find the tricks you can do to reduce your code.
   * [Strings](#Strings)
   * [Conditions](#Conditions)
 
+----------
+
 # Objects
 ## Variables
 - Define variables with one letter
@@ -23,6 +25,15 @@ b=50
 c="Fish"
 
 a,b,c=2017,50,"Fish" #Better
+```
+
+- Puts variables
+```ruby
+a="Anana"
+puts "My name is #{a}"
+
+$a="Anana"
+puts "My name is #$a" #Better
 ```
 
 ## Strings
