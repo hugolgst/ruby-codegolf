@@ -61,6 +61,13 @@ end
 print "Hello"*6 #Better
 ```
 
+- Single char
+```ruby
+puts "A"
+
+puts ?A #Better
+```
+
 ## Arrays
 
 - Array assignement
