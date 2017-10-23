@@ -69,6 +69,13 @@ puts "A"
 puts ?A #Better
 ```
 
+- \n shortcut
+```ruby
+a=gets.split "\n"
+
+a=gets.split $/ #Better
+```
+
 ## Arrays
 
 - Array assignement
