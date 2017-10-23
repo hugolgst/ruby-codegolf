@@ -9,6 +9,7 @@ Just browse categories and find the tricks you can do to reduce your code.
   * [Arrays](#arrays)
   * [Integers](#integers)
   * [Conditions](#conditions)
+  * [Others](#others)
 
 ----------
 
@@ -116,4 +117,13 @@ puts "Yes it's true." if a #Better
 
 a=true
 a&&puts "Yes it's true." #The best
+```
+
+## Others
+
+- Shortcut for print
+```ruby
+print "hello"
+
+$><<"hello" #Better
 ```
