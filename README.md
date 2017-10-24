@@ -112,6 +112,7 @@ end
 ```
 
 > Change compact
+
 ```ruby
 a=[1, nil, 2, nil, nil, 3]
 a.compact
@@ -156,6 +157,7 @@ p 547 #Better
 ```
 
 > -1
+
 ```ruby
 a=5
 (a-1) * 4
@@ -201,6 +203,7 @@ end
 ```
 
 > You can change `each` to `map`
+
 ```ruby
 (0..9).to_a.each do 
  puts "Hello"
