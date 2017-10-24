@@ -3,26 +3,26 @@ Some of the best golfing tips in Ruby.
 Just browse categories and find the tricks you can do to reduce your code.
 
 # Summary
-* [Objects](#objects)
-  * [Variables](#variables)
-  * [Strings](#strings)
-  * [Arrays](#arrays)
-  * [Ranges](#ranges)
-  * [Integers](#integers)
-  * [Conditions](#conditions)
-  * [Others](#others)
+* [Variables](#variables)
+* [Strings](#strings)
+* [Arrays](#arrays)
+* [Ranges](#ranges)
+* [Integers](#integers)
+* [Conditions](#conditions)
+* [Others](#others)
 
 ----------
 
-# Objects
 ## Variables
 - Define variables with one letter
+
 ```ruby
 sentence="This is a good sentence."
 s="This is a good sentence." #Better
 ```
 
 - Multiple variable assignement
+
 ```ruby
 a=2017
 b=50         
@@ -32,6 +32,7 @@ a,b,c=2017,50,"Fish" #Better
 ```
 
 - Puts variables
+
 ```ruby
 a="hugol"
 puts "My name is #{a}"
@@ -42,6 +43,7 @@ puts "My name is #$a" #Better
 
 ## Strings
 - String match
+
 ```ruby
 a="Hello"
 if a.match /[a-zA-Z]/
@@ -55,6 +57,7 @@ end
 ```
 
 - String repetition
+
 ```ruby
 6.times do
  print "Hello"
@@ -64,6 +67,7 @@ print "Hello"*6 #Better
 ```
 
 - Single char
+
 ```ruby
 puts "A"
 
@@ -71,6 +75,7 @@ puts ?A #Better
 ```
 
 - \n shortcut
+
 ```ruby
 a=gets.split "\n"
 
@@ -80,6 +85,7 @@ a=gets.split $/ #Better
 ## Arrays
 
 - Array assignement
+
 ```ruby
 a=["Hello", "this", "is", "an", "array"]
 
@@ -87,6 +93,7 @@ a=%w(Hello this is an array) #Better
 ```
 
 - Array join
+
 ```ruby
 a=[1, 2, 3]
 puts a.join("+")
@@ -96,6 +103,7 @@ puts a*?+ #Better
 ```
 
 - Try to set your array as `$*`
+
 ```ruby
 a=[]
 6.times do |i|
@@ -110,6 +118,7 @@ end
 ## Ranges
 
 - Item is member of a range
+
 ```ruby
 (0..10).member?(3)
 
@@ -117,6 +126,7 @@ end
 ```
 
 - Range to array
+
 ```ruby
 ("a".."z").to_a
 
@@ -126,6 +136,7 @@ end
 ## Integers
 
 - Number shortcut
+
 ```ruby
 a=10000
 
@@ -133,6 +144,7 @@ a=1e4 #Better
 ```
 
 - Print
+
 ```ruby
 puts 547
 
@@ -142,6 +154,7 @@ p 547 #Better
 ## Conditions
 
 - Condition shortcut
+
 ```ruby
 a=true
 if a
@@ -158,6 +171,7 @@ a&&puts "Yes it's true." #The best
 ## Others
 
 - Shortcut for print
+
 ```ruby
 print "hello"
 
@@ -165,6 +179,7 @@ $><<"hello" #Better
 ```
 
 - Think to remove `do end` block
+
 ```ruby
 6.times do |i|
  puts i
