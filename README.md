@@ -183,3 +183,14 @@ end
 
 6.times{|i|puts i} #Better
 ```
+
+> You can change `each` to `map`
+```ruby
+(0..9).to_a.each do 
+ puts "Hello"
+end
+
+(0..9).to_a.map do
+ puts "Hello"             #Better
+end
+```
