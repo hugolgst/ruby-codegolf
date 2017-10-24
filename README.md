@@ -111,6 +111,14 @@ end
 end
 ```
 
+> Change compact
+```ruby
+a=[1, nil, 2, nil, nil, 3]
+a.compact
+
+a-[nil] #Better
+```
+
 ## Ranges
 
 > Item is member of a range
