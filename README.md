@@ -155,6 +155,14 @@ puts 547
 p 547 #Better
 ```
 
+> -1
+```ruby
+a=5
+(a-1) * 4
+
+~-a * 4 #Better
+```
+
 ## Conditions
 
 > Condition shortcut
