@@ -213,3 +213,13 @@ end
  puts "Hello"             #Better
 end
 ```
+
+> You can replace your last gets by `$_`
+
+```ruby
+a=gets
+puts a
+
+gets
+puts $_
+```
