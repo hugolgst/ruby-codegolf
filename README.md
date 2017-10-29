@@ -120,6 +120,14 @@ a.compact
 a-[nil] #Better
 ```
 
+> Uniq
+
+```ruby
+a.uniq
+
+a|[]
+```
+
 ## Ranges
 
 > Item is member of a range
