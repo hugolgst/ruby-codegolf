@@ -231,3 +231,13 @@ puts a
 gets
 puts $_
 ```
+
+> Methods
+
+```ruby
+def a n
+n*n
+end
+
+a=->n{n*n} # Better
+```
