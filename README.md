@@ -111,6 +111,16 @@ end
 end
 ```
 
+> Array shift
+
+```ruby
+a=[1,2,3]
+a.shift
+
+a=[1,2,3]
+a[1..-1]  # Better
+```
+
 > Change compact
 
 ```ruby
