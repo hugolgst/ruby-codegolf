@@ -251,3 +251,13 @@ end
 
 a=->n{n*n} # Better
 ```
+
+> Write n times w
+
+```ruby
+6.times do
+ puts "Hello world"
+end
+
+puts ["Hello world"] * 6   #Better
+```
