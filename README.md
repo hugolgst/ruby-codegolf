@@ -70,6 +70,14 @@ puts "A"
 puts ?A #Better
 ```
 
+> Char ascii
+
+```ruby
+puts 70.chr
+
+putc 70 #Better
+```
+
 > \n shortcut
 
 ```ruby
