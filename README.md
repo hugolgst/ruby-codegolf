@@ -161,7 +161,7 @@ a|[]
 ```ruby
 ("a".."z").to_a
 
-[*"a".."z"] #Better
+[*?a..?z] #Better
 ```
 
 ## Integers
