@@ -1,0 +1,22 @@
+{
+  "name": "ruby-codegolf",
+  "version": "1.0.0",
+  "description": "Some tips for golfing in Ruby",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+hugolgst
+  },
+hugolgst
+  "license": "MIT",
+  "bugs": {
+hugolgst
+  },
+hugolgst
+}
