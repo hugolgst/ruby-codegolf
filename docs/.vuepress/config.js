@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Code golf tips',
+  title: 'ruby-codegolf',
   description: 'Some tips for golfing in Ruby',
   head: [
     ['meta', { name: 'og:type', content: 'website' }],
