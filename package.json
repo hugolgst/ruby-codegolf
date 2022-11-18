@@ -11,7 +11,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.9.7"
   },
   "repository": {
     "type": "git",
